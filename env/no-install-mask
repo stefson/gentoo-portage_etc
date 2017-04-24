@@ -1,2 +1,2 @@
-INSTALL_MASK=""
-PKG_INSTALL_MASK=""
+INSTALL_MASK="charset.alias"
+PKG_INSTALL_MASK="charset.alias"
