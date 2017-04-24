@@ -16,6 +16,7 @@ net-print/hplip snmp
 net-vpn/tor stats tor-hardening transparent-proxy upnp
 sys-apps/portage doc native-extensions
 sys-boot/grub libzfs
+sys-devel/clang default-compiler-rt default-libcxx
 sys-fs/cryptsetup -openssl
 sys-fs/ntfs3g -external-fuse
 www-client/firefox custom-cflags custom-optimization pgo wifi

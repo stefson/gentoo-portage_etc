@@ -29,8 +29,8 @@
 <dev-python/cycler-0.11
 <dev-python/entrypoints-0.3
 <dev-python/hpack-2.4
-<dev-python/hyperframe-4.1
 <dev-python/hyper-h2-2.6
+<dev-python/hyperframe-4.1
 <dev-python/imagesize-0.8
 <dev-python/ipykernel-4.6
 <dev-python/ipyparallel-5.3
@@ -75,8 +75,8 @@
 <dev-qt/qtopengl-5.8
 <dev-qt/qtpaths-5.8
 <dev-qt/qtprintsupport-5.8
-<dev-qt/qtquickcontrols2-5.8
 <dev-qt/qtquickcontrols-5.8
+<dev-qt/qtquickcontrols2-5.8
 <dev-qt/qtscript-5.8
 <dev-qt/qtsql-5.8
 <dev-qt/qtsvg-5.8
@@ -89,6 +89,7 @@
 <dev-qt/qtxmlpatterns-5.8
 <dev-util/bazel-0.5
 <dev-util/cargo-0.18.0
+<dev-util/ccache-3.4
 <dev-util/colm-0.14
 <dev-util/gprof2dot-0_p20161231
 <dev-util/kdevelop-5.2
@@ -109,11 +110,12 @@
 <media-libs/phonon-4.10
 <media-video/openshot-2.3
 <net-fs/samba-4.6
-<net-libs/cppzmq-0_pre170101
 <net-libs/NativeThread-0_pre20081231
+<net-libs/cppzmq-0_pre170101
 <net-misc/spice-gtk-0.34
 <net-print/hplip-3.16.12
 <net-print/hplip-plugin-3.16.12
+<net-wireless/bluez-5.45
 <net-wireless/reaver-1.5
 <sci-astronomy/stellarium-0.16
 <sci-libs/scikits-0.2
@@ -126,7 +128,9 @@
 <sys-apps/grep-3.1
 <sys-apps/microcode-ctl-1.29
 <sys-apps/net-tools-1.60_p20161201235959
-<sys-apps/systemd-234
+<sys-apps/sandbox-2.11
+<sys-auth/elogind-230
+<sys-auth/polkit-0.114
 <sys-block/thin-provisioning-tools-0.7
 <sys-devel/binutils-2.28
 sys-devel/binutils:2.28 **
@@ -141,13 +145,20 @@ sys-devel/binutils:2.28 **
 <sys-fs/cryptsetup-1.8
 <sys-fs/xfsprogs-4.9.0
 <sys-kernel/genkernel-next-67
+<sys-libs/argp-standalone-1.4
 <sys-libs/binutils-libs-2.28
 <sys-libs/compiler-rt-4.1
 <sys-libs/compiler-rt-sanitizers-4.1
+<sys-libs/fts-standalone-1.3
 <sys-libs/ldb-1.1.28
+<sys-libs/libcxx-4.1
+<sys-libs/libcxxabi-4.1
 <sys-libs/libomp-4.1
 <sys-libs/libseccomp-2.4
 <sys-libs/libudev-compat-187
+<sys-libs/llvm-libunwind-4.1
+<sys-libs/musl-9999
+<sys-libs/obstack-standalone-1.2
 <sys-libs/talloc-2.1.9
 <sys-libs/tdb-1.3.13
 <sys-libs/tevent-0.9.32
