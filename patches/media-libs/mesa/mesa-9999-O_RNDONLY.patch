@@ -1,0 +1,11 @@
+diff -Nuar mesa-9999.org/src/util/rand_xor.c mesa-9999/src/util/rand_xor.c
+--- mesa-9999.org/src/util/rand_xor.c	2017-04-19 18:27:17.240796206 +0000
++++ mesa-9999/src/util/rand_xor.c	2017-04-19 19:39:22.404967791 +0000
+@@ -23,6 +23,7 @@
+  */
+ 
+ #if defined(__linux__)
++#include <fcntl.h>
+ #include <sys/file.h>
+ #include <unistd.h>
+ #else
