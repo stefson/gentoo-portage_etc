@@ -1,2 +1,1 @@
 LDFLAGS="${LDFLAGS} -fuse-ld=bfd"
-LD="/usr/bin/ld.bfd"

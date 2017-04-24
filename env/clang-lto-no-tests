@@ -1,8 +1,0 @@
-AR="llvm-ar"
-CC="clang"
-CFLAGS="-O3 -march=native -pipe -flto=full"
-CXX="clang++"
-CXXFLAGS="${CFLAGS}"
-LDFLAGS="${LDFLAGS}"
-NM="llvm-nm"
-RANLIB="llvm-ranlib"

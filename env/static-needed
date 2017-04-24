@@ -1,3 +1,2 @@
-EXTRA_ECONF=""
-INSTALL_MASK=""
-PKG_INSTALL_MASK=""
+source no-disable-static
+source no-install-mask

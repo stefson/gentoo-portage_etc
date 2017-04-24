@@ -1,7 +1,5 @@
 AR="/usr/bin/ar"
 CC="gcc"
-CFLAGS="-O3 -march=native -pipe"
-CXXFLAGS="${CFLAGS}"
 CXX="g++"
 FEATURES="test"
 NM="/usr/bin/nm"

@@ -1,4 +1,4 @@
-CCACHE_DIR="/nr/ccache"
+CCACHE_DIR="/nr/ccache_musl"
 CCACHE_SIZE=64G
 CCACHE_NLEVELS=8
 CCACHE_UNIFY=1
