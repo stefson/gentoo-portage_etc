@@ -1,0 +1,14 @@
+diff -Nuar libndp-1.6.orig/utils/ndptool.c libndp-1.6/utils/ndptool.c
+--- libndp-1.6.orig/utils/ndptool.c	2016-05-17 10:43:33.000000000 +0000
++++ libndp-1.6/utils/ndptool.c	2017-04-29 23:45:17.314245122 +0000
+@@ -29,6 +29,10 @@
+ #include <errno.h>
+ #include <ndp.h>
+ 
++#ifndef _SYS_SELECT_H
++#include <sys/select.h>
++#endif
++
+ enum verbosity_level {
+ 	VERB1,
+ 	VERB2,
