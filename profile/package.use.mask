@@ -1,0 +1,2 @@
+# Broken configure script using _nl_msg_cat_cntr to check for gettext/libintl, easier to skip for now
+dev-util/dialog nls
