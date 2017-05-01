@@ -65,3 +65,4 @@ x11-base/xorg-drivers -video_cards_intel -video_cards_nouveau -video_cards_nvidi
 x11-base/xorg-server glamor xnest xvfb
 x11-libs/libxcb xkb
 x11-libs/wxGTK:3.0 webkit
+dev-libs/libxml2 python
