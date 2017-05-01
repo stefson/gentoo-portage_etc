@@ -1,0 +1,51 @@
+diff -Nuar NetworkManager-1.4.4.orig/src/systemd/src/basic/in-addr-util.c NetworkManager-1.4.4/src/systemd/src/basic/in-addr-util.c
+--- NetworkManager-1.4.4.orig/src/systemd/src/basic/in-addr-util.c	2016-12-13 09:08:32.000000000 +0000
++++ NetworkManager-1.4.4/src/systemd/src/basic/in-addr-util.c	2017-05-01 08:47:37.743834972 +0000
+@@ -343,10 +343,16 @@
+                         }
+                 }
+ 
+-                s = strndupa(s, suffix - s);
++		char *s = NULL;
++		do {
++			char *s = malloc(suffix-s+1);
++		} while (s == NULL);
++                s = strndup(s, suffix - s);
+         }
+ 
+         r = in_addr_from_string_auto(s, family, ret);
++	free(s);
++
+         if (r < 0)
+                 return r;
+ 
+diff -Nuar NetworkManager-1.4.4.orig/src/systemd/src/basic/parse-util.c NetworkManager-1.4.4/src/systemd/src/basic/parse-util.c
+--- NetworkManager-1.4.4.orig/src/systemd/src/basic/parse-util.c	2017-05-01 08:47:16.548873140 +0000
++++ NetworkManager-1.4.4/src/systemd/src/basic/parse-util.c	2017-05-01 08:48:01.210792712 +0000
+@@ -543,7 +543,7 @@
+ }
+ 
+ int parse_percent_unbounded(const char *p) {
+-        const char *pc, *n;
++        const char *pc;
+         unsigned v;
+         int r;
+ 
+@@ -551,8 +551,15 @@
+         if (!pc)
+                 return -EINVAL;
+ 
+-        n = strndupa(p, pc - p);
+-        r = safe_atou(n, &v);
++	char *n = NULL;
++	do {
++		n = malloc(strlen(pc)-strlen(p)+1);
++	} while (n == NULL);
++        n = strndup(p, strlen(pc) - strlen(p));
++        
++	r = safe_atou(n, &v);
++	free(n);
++
+         if (r < 0)
+                 return r;
+ 
