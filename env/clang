@@ -1,0 +1,9 @@
+CC="clang"
+CXX="clang++ -stdlib=libc++"
+AR="llvm-ar"
+NM="llvm-nm"
+RANLIB="llvm-ranlib"
+
+CFLAGS="${CFLAGS}"
+CXXFLAGS="${CFLAGS}"
+#LDFLAGS="${LDFLAGS},-nostdlib,-lc++,-lc++abi,-lm,-lc"
