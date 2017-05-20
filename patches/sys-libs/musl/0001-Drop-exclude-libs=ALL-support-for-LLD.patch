@@ -1,0 +1,12 @@
+diff -Nuar musl-1.1.16.orig/configure musl-1.1.16/configure
+--- musl-1.1.16.orig/configure	2017-01-01 03:27:17.000000000 +0000
++++ musl-1.1.16/configure	2017-05-12 21:49:01.718306654 +0000
+@@ -579,7 +579,7 @@
+ # Avoid exporting symbols from compiler runtime libraries. They
+ # should be hidden anyway, but some toolchains including old gcc
+ # versions built without shared library support and pcc are broken.
+-tryldflag LDFLAGS_AUTO -Wl,--exclude-libs=ALL
++#tryldflag LDFLAGS_AUTO -Wl,--exclude-libs=ALL
+ 
+ # Linking with -Bsymbolic-functions is no longer mandatory for
+ # the dynamic linker to work, but enable it if it works as
