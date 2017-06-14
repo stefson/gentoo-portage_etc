@@ -2,9 +2,8 @@ app-admin/sysstat isag lm_sensors
 app-crypt/pinentry gnome-keyring
 app-crypt/qca -qt4
 app-emulation/libvirt-glib python
-app-text/texlive extra
 app-text/texlive-core xetex
-app-text/xmlto text
+app-text/texlive extra
 dev-db/sqlite secure-delete
 dev-java/icedtea infinality
 dev-lang/perl ithreads
@@ -13,10 +12,9 @@ dev-libs/elfutils static-libs
 dev-libs/libdbusmenu-qt -qt4
 dev-libs/libpcre pcre16
 dev-libs/libsecp256k1 asm endomorphism
-dev-libs/libxml2 python
-dev-python/PyQt5 webkit
 dev-python/ipython matplotlib nbconvert notebook
 dev-python/numpy lapack
+dev-python/PyQt5 webkit
 dev-qt/designer -phonon
 dev-qt/qtgui accessibility eglfs
 dev-qt/qtmultimedia widgets
@@ -33,8 +31,8 @@ media-libs/libsamplerate sndfile
 media-libs/libsdl2 gles
 media-libs/libvpx svc
 media-libs/mesa dri3 gbm gles2 llvm-shared-libs vulkan xa
-media-libs/phonon -qt4
 media-libs/phonon-gstreamer -qt4
+media-libs/phonon -qt4
 media-sound/pulseaudio gnome
 net-analyzer/wireshark -qt4
 net-dns/avahi autoipd mdnsresponder-compat
@@ -47,22 +45,20 @@ net-misc/iputils arping clockdiff rarpd tracepath traceroute -caps -filecaps
 net-misc/networkmanager resolvconf
 net-misc/spice-gtk -gstreamer python usbredir
 net-vpn/openvpn down-root socks
+net-wireless/bluez user-session
 net-wireless/lorcon python
+sys-apps/dbus user-session
+sys-apps/systemd xkb
 sys-auth/polkit-qt -qt4
 sys-devel/gcc graphite objc mpx pie ssp
-sys-devel/clang-runtime -sanitize
-sys-devel/clang-runtime libcxx
 sys-devel/llvm gold udis86
-sys-fs/eudev openrc
 sys-libs/glibc gd
-sys-libs/libcxx libcxxabi libunwind -libcxxrt
-sys-libs/libcxxrt libunwind
 sys-libs/libseccomp static-libs
 sys-libs/ncurses tinfo
 sys-libs/ntdb python
 sys-libs/tdb python
 sys-libs/tevent python
+virtual/notification-daemon kde
 x11-base/xorg-drivers -video_cards_intel -video_cards_nouveau -video_cards_nvidia
 x11-base/xorg-server glamor xnest xvfb
-x11-libs/libxcb xkb
 x11-libs/wxGTK:3.0 webkit

@@ -3,10 +3,10 @@ app-emulation/docker overlay
 app-emulation/libvirt virt-network
 app-emulation/qemu usbredir
 app-emulation/wine staging s3tc
+app-office/libreoffice -postgres
 app-portage/eix optimization sqlite tools
 app-portage/layman sync-plugin-portage
 dev-libs/weston colord fbdev ivi rdp screen-sharing xwayland
-dev-python/PyQt5 gui network printsupport
 dev-util/bazel tools
 dev-vcs/subversion -dso
 games-util/steam-games-meta s3tc
@@ -16,8 +16,6 @@ net-p2p/bitcoind bitcoin_policy spamfilter ljr upnp
 net-print/hplip snmp
 net-vpn/tor stats tor-hardening transparent-proxy upnp
 sys-apps/portage doc native-extensions
-sys-boot/grub libzfs
-sys-devel/clang default-compiler-rt default-libcxx
 sys-fs/cryptsetup -openssl
 sys-fs/ntfs3g -external-fuse
 www-client/firefox custom-cflags custom-optimization pgo wifi

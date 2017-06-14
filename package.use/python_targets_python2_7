@@ -1,3 +1,4 @@
+app-arch/rpm python_targets_python2_7
 app-emulation/libvirt-glib python_targets_python2_7
 app-emulation/qemu python_targets_python2_7
 app-emulation/virt-manager python_targets_python2_7
@@ -9,7 +10,6 @@ dev-libs/libdbusmenu python_targets_python2_7
 dev-libs/libxml2 python_targets_python2_7
 dev-libs/newt python_targets_python2_7
 dev-libs/zziplib python_targets_python2_7
-dev-python/PyQt5 python_targets_python2_7
 dev-python/appdirs python_targets_python2_7
 dev-python/backports python_targets_python2_7
 dev-python/backports-ssl-match-hostname python_targets_python2_7
@@ -40,7 +40,6 @@ dev-python/numpy python_targets_python2_7
 dev-python/packaging python_targets_python2_7
 dev-python/pbr python_targets_python2_7
 dev-python/ply python_targets_python2_7
-dev-python/py python_targets_python2_7
 dev-python/pyasn1 python_targets_python2_7
 dev-python/pycairo python_targets_python2_7
 dev-python/pycparser python_targets_python2_7
@@ -67,6 +66,7 @@ dev-python/testtools python_targets_python2_7
 dev-python/traceback2 python_targets_python2_7
 dev-python/unittest2 python_targets_python2_7
 dev-python/urllib3 python_targets_python2_7
+dev-python/versioneer python_targets_python2_7
 dev-python/wxpython python_targets_python2_7
 dev-python/xcffib python_targets_python2_7
 dev-util/itstool python_targets_python2_7
@@ -82,7 +82,6 @@ net-libs/gtk-vnc python_targets_python2_7
 net-libs/nodejs python_targets_python2_7
 net-wireless/aircrack-ng python_targets_python2_7
 net-wireless/lorcon python_targets_python2_7
-sys-devel/clang python_targets_python2_7
 sys-devel/llvm python_targets_python2_7
 sys-libs/ldb python_targets_python2_7
 sys-libs/talloc python_targets_python2_7
