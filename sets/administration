@@ -1,4 +1,3 @@
-#sys-process/vixie-cron
 app-admin/logrotate
 app-admin/mcelog
 app-admin/syslog-ng
