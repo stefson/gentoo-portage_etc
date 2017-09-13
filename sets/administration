@@ -1,5 +1,5 @@
+#sys-process/vixie-cron
 app-admin/logrotate
-app-admin/mcelog
 app-admin/syslog-ng
 app-arch/hardlink
 app-misc/fdupes

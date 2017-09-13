@@ -1,7 +1,9 @@
 app-doc/doxygen
 dev-cpp/gtest
+dev-python/bitstring
 dev-python/ipython
 dev-python/line_profiler
+dev-python/neo4j-python-driver
 dev-python/protobuf-python
 dev-python/pycallgraph
 dev-python/pyprof2calltree
@@ -10,6 +12,7 @@ dev-python/virtualenv
 dev-util/bazel
 dev-util/cgdb
 dev-util/cloc
+dev-util/cppcheck
 dev-util/gprof2dot
 dev-util/kdevelop
 dev-util/meld
